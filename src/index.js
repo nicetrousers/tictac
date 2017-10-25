@@ -67,6 +67,10 @@ class Board extends React.Component {
           {this.renderSquare(7)}
           {this.renderSquare(8)}
         </div>
+        <div className="reset">
+          <br />
+          <button>New game</button>
+        </div>
       </div>
     );
   }
